@@ -22,7 +22,10 @@ print(buzz_df.shape)
 buzz_df.head()
 
 
-buzz_df.to_csv('buzz_df_day1.csv')
+buzz_df.to_csv('buzz_df_day2.csv')
 
 
-get_ipython().getoutput("mv buzz_df_day1.csv ../data/")
+get_ipython().getoutput("mv buzz_df_day2.csv ../data/")
+
+
+
