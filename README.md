@@ -1,3 +1,3 @@
-<img style="float: left; width: 175px; height: 175px;" src="https://static.wikia.nocookie.net/logopedia/images/a/ab/BuzzFeed_2.svg/revision/latest?cb=20160404171003"> 
+<img src="https://miro.medium.com/max/780/1*WGgH5V1yI0-_qA_hIcwrDA.png" width="300" height="300" class="center"> 
 
 # BuzzFeed Headline Analysis
