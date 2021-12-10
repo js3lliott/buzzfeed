@@ -1,3 +1,3 @@
-<img src="http://northgate.com/wp-content/uploads/2017/03/buzzfeed.jpg" width="1200" height="500" class="center"> 
+<img src="https://static.wikia.nocookie.net/logopedia/images/a/ab/BuzzFeed_2.svg/revision/latest?cb=20160404171003" width="200" height="200" class="left"> 
 
 # BuzzFeed Headline Analysis
