@@ -1,3 +1,3 @@
-<img src="https://cdn.business2community.com/wp-content/uploads/2014/05/buzzfeed1.png" width="1500" height="400" class="center"> 
+<img src="https://play-lh.googleusercontent.com/JAjdCujgsy-YJ6LK4IItCoZACtT7pFoWaG2sHFEraTaE3mwhlA-VJ4QXlV9fIsbMKAc" width="1200" height="300" class="center"> 
 
 # BuzzFeed Headline Analysis
