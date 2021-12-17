@@ -7,7 +7,7 @@ This is a fun little project I built that takes top headlines from BuzzFeed, usi
 Click the links to skip right to where you want to go!
 - [Data Collection](https://github.com/js3lliott/buzzfeed/blob/main/nbs/data_collection.ipynb)
 - [Merging](https://github.com/js3lliott/buzzfeed/blob/main/nbs/data_concatenation.ipynb)
-- [Exploratory Data Analysis](https://github.com/js3lliott/buzzfeed/blob/main/nbs/headline_eda.ipynb)
+- [Exploratory Data Analysis](https://nbviewer.org/github/js3lliott/buzzfeed/blob/main/nbs/headline_eda.ipynb)
 - [NLP Model]()
 
 ## Data Collection & Merging 💻
