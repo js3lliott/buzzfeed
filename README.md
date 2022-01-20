@@ -16,6 +16,6 @@ To collect the headlines from BuzzFeed, I built a simple web scraper that utiliz
 
 ## EDA 📊 
 
-
+Here is where we get into the weeds of exploring the text in-depth and try to extrapolate what parts come together to make BuzzFeed headlines as attractive and as attention-grabbing as they are. Starting with text analytics we visualize some basic statistics such as average word and title length, how many titles have numbers in them vs how many don't, which words are most commonly used, etc. The `WordCloud` library comes in handy to view the entire corpus of headlines. `Scikit-learn` also proved to be useful for creating n-grams with `CountVectorizer()`. Once I got some basic understanding of what the headines were made of, I moved on to some NLP analysis that included the use of `TextBlob` & `nltk` for sentiment analysis and `SpaCy` for visualizing Named Entity Recognition.
 
 ## NLP Model 📖
