@@ -1,0 +1,49 @@
+Pasting here different iterations of my dataset preprocessing function. I really wanted to try and expand the contractions and get rid of stop words that way and then create a bag of words doc out of it but each new thing I added into the function would mess up the output in some way so I just stuck to my original function for now. Other notebooks contain more simple preprocessing functions and just other iterations that worked well for the task.
+
+# def preprocess(df):
+#     corpus = []
+#     porter = PorterStemmer() # stemming
+#     for headline in title_df['clean_title']:
+#         words = [w for w in word_tokenize(headline) if (w not in stop_words)] # word tokenization & stopwords removal
+#         words = [porter.stem(w) for w in words]
+#         words = [w.lower() for w in words] # a double check to lowercase everything
+# #         words = [re.sub(r'[^a-zA-Z0-9]', '', w) for w in words] # remove all non-alphanumeric characters
+        
+#         corpus.append(words)
+#     return corpus
+
+# def preprocess(df):
+#     df['clean_title'] = df['clean_title'].str.lower()
+#     df['clean_title'] = df['clean_title'].apply(lambda x: ' '.join([contractions.fix(word) for word in x.split()])) # expand contractions
+#     df['clean_title'] = df['clean_title'].str.replace('[^a-zA-Z0-9]', ' ') # replace non-alphanumeric chars with spaces
+#     df['clean_title'] = df['clean_title'].str.strip() # remove leading and trailing spaces
+#     df['clean_title'] = df['clean_title'].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop_words)]))
+    
+#     return df
+
+# def preprocess(df):
+#     df['clean_title'] = df['clean_title'].apply(lambda x: [contractions.fix(word) for word in x.split()])
+#     df['clean_title'] = [' '.join(map(str, w)) for w in df['title']]
+#     corpus = []
+#     porter = PorterStemmer()
+#     for headline in df['clean_title']:
+#         words = [w.lower() for w in headline]
+#         words = [re.sub(r'[^a-zA-Z0-9]', ' ', w) for w in words]
+#         words = [w for w in word_tokenize(headline) if (w not in stop_words)]
+#         words = [porter.stem(w) for w in words]
+#         corpus.append(words)
+    
+#     return corpus
+
+
+# df['title'] = df['title'].apply(lambda x: [contractions.fix(word) for word in x.split()])
+# df['title'] = [' '.join(map(str, w)) for w in df['title']]
+# corpus = []
+# porter = PorterStemmer()
+# for headline in df['title']:
+#   words = [w.lower() for w in headline]
+#   words = [re.sub(r'[^a-zA-Z0-9]', ' ', w) for w in words]
+#   words = [w for w in word_tokenize(headline) if (w not in stop_words)]
+#   words = [porter.stem(w) for w in words]
+#   corpus.append(words)
+# print(corpus)
